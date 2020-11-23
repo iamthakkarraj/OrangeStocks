@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1760c07f4e3543a287a278807eede441" Name="Diagram1" ZoomLevel="77">
+        <EntityTypeShape EntityType="OrangeStocksModel.Customer" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.Role" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.StockItemCategory" Width="1.5" PointX="8.25" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.StockItem" Width="1.5" PointX="10.5" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.TransactionDetail" Width="1.5" PointX="12.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.Transaction" Width="1.5" PointX="7.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.TransactionType" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.User" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OrangeStocksModel.Vendor" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Customers__Creat__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Custo__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__StockItem__Categ__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__StockItem__Creat__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__StockItem__Vendo__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__SockI__01142BA1" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Creat__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Inwar__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Creat__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Inwar__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Transacti__Vendo__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="OrangeStocksModel.FK__Vendors__Created__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
